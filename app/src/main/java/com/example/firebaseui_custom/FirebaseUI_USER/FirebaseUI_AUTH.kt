@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.firebaseui_custom.R
+import com.example.firebaseui_custom.USER_Profile.USER_Profile
 import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
 
@@ -40,7 +41,7 @@ class FirebaseUI_AUTH : AppCompatActivity() {
             override fun onAuthStateChanged(p0: FirebaseAuth) {
                 val user =p0.currentUser
                 if (user != null){
-                    startActivity(Intent(this@FirebaseUI_AUTH,Profile::class.java))
+                    startActivity(Intent(this@FirebaseUI_AUTH,USER_Profile::class.java))
                     // Do something
                     //Toast.makeText(this@MainActivity,"logged in",user.uid,Toast.LENGTH_SHORT).show()
                     //Toast.makeText(this@MainActivity1,"loggedin", Toast.LENGTH_LONG)
