@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "541454578212",
+    "firebase_url": "https://milk-app-738e0.firebaseio.com",
+    "project_id": "milk-app-738e0",
+    "storage_bucket": "milk-app-738e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541454578212:android:3e9a0c6375aed948e51eb1",
+        "android_client_info": {
+          "package_name": "com.example.firebaseui_custom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541454578212-4pmvuskua512vmccm1cq9b9u0fagpjcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseui_custom",
+            "certificate_hash": "951cf9ac9ee7db0c8c34b9240183421b6ff8844f"
+          }
+        },
+        {
+          "client_id": "541454578212-dc67pi7tquha5obabah39c3323p2said.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKm7d3SZMUswROTaQG7-SpeMN3onRffFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541454578212-dc67pi7tquha5obabah39c3323p2said.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
